@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.14" />
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+
+      html.dark {
+        --c-bg: #22272e;
+      }
+
+      html,
+      body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.classList.toggle('dark', true)
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <link rel="icon" href="/logo.png"><title>华天学院新生指引</title><meta name="description" content="由厦门数圈科技有限公司强力驱动">
+    <link rel="preload" href="/assets/style-BeCOVMr8.css" as="style"><link rel="stylesheet" href="/assets/style-BeCOVMr8.css">
+    <link rel="modulepreload" href="/assets/app-C0R5kBhw.js"><link rel="modulepreload" href="/assets/404.html-BReji6qM.js">
+    <link rel="prefetch" href="/assets/index.html-kEL24fbX.js" as="script"><link rel="prefetch" href="/assets/basics.html-DoxD7y1j.js" as="script"><link rel="prefetch" href="/assets/dormitories.html-D-nCnIKo.js" as="script"><link rel="prefetch" href="/assets/lifestyles.html-BJem591b.js" as="script"><link rel="prefetch" href="/assets/learn.html-BG9mAmjq.js" as="script"><link rel="prefetch" href="/assets/registration.html-Bz4BWRul.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" data-v-303656ba><main class="page" data-v-303656ba><div class="theme-default-content" data-v-303656ba><h1 data-v-303656ba>404</h1><blockquote data-v-303656ba>How did we get here?</blockquote><a class="route-link" href="/" data-v-303656ba>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-C0R5kBhw.js" defer></script>
+  </body>
+</html>
